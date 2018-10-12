@@ -3,9 +3,6 @@ from argparse import ArgumentParser
 from os import system
 import sys
 
-"""Lazy mans shellcode maker.  Wraps nasm/objdump stuff.
-"""
-
 def check():
 	"""i need nasm/objdump"""
 	found = True
